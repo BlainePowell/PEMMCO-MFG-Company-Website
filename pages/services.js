@@ -61,7 +61,7 @@ function New() {
       </h1>
       </div>
       <video className={styles.vid} autoPlay loop muted>
-        <source src="PEM32.mp4" type="video/mp4" />
+        <source src="PEM32 (1).mp4" type="video/mp4" />
       </video>
       <div className={styles.navs}>
       <div className={styles.hamburger}>
