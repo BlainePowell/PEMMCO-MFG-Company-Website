@@ -192,10 +192,10 @@ function Home() {
         />}
       <div className={styles.welcomehome}>
       <h1>
-        Welcome To PEMMCO Manufacturi
+        Welcome To PEMMCO Manufacturing
       </h1>
       <h2>
-        Welcome To PEMMCO MF
+        Welcome To PEMMCO MFG
       </h2>
       </div>
       <img src="PEMSKY.jpeg" className={styles.vid} />
