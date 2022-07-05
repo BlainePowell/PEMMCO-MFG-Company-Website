@@ -2936,14 +2936,13 @@
 }
 
 .newsbtn {
-border-bottom: 1.5px solid;
+border-bottom: 1.5px solid #000;
 width: 90%;
 left: 5%;
 text-align: center;
 height: 53px;
 position: absolute;
 top: 400px;
-border-color: #022652;
 }
 
 .contactbtn,.quotebtn {
