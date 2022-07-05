@@ -1136,7 +1136,7 @@
 }
 
 .finalstyle img {
-    transition: opacity .6s ease-in-out;
+    transition: opacity 1s ease-in-out;
     top: 105px;
     width: 40%;
     height: 250px;
@@ -4007,7 +4007,7 @@ top: 400px;
 
     .finalstyle img {
         top: 135px;
-        left: 10%;
+        left: 11%;
         width: 80%;
         height: 250px
     }
