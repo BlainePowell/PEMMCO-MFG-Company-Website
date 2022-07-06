@@ -175,7 +175,7 @@ function Home() {
   const shuffleFinal = useCallback(() => {
     setTimeout(() => {
       Final();
-    }, 1500);
+    }, 500);
     setInFinal(false);
   }, []);
 
