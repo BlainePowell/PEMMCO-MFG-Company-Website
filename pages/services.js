@@ -209,9 +209,9 @@ function New() {
         <img src="waterjet.jpeg" />
         <h1>Waterjet Cutting</h1>
         <p>
-          At PEMMCO Mfg. we offer the option to assemble your parts before we ship them to you. 
-          In fact, we have a whole department dedicated to this procedure.
-          With our ability to do assembly, we lower your bottom-line and get your parts to you faster!
+        Our 6 by 12 foot waterjet cutting tool is fully capable of cutting up to six inches of steel.
+         We have the ability to manufacture blanks for production, or just a one time cycle for a drawing of your choice. 
+        with a cutting stream of 60,000 psi, we can cut just about anything on our waterjet. 
         </p>
       </div>
           </div>
