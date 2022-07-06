@@ -247,6 +247,7 @@ function New() {
       </div>
       <div className={styles.freecons}>
         <h1>Request A Free Consultation Today</h1>
+       <form ref={form} onSubmit={sendEmail}>
         <div>
           <label>
             <input
@@ -266,6 +267,7 @@ function New() {
           </label>
             <button onClick={sendEmail}>Submit Request</button>
         </div>
+       </form>
         </div>.
       <div className={styles.youtube}>
       <iframe src="https://www.youtube.com/embed/6ckddM7zpqc" />
