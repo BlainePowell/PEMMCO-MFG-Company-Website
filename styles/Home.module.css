@@ -1885,7 +1885,8 @@
 
 @media (max-width:1695px) {
     .mcapabilities p,.secapabilities p {
-        top: 170px
+        top: 170px;
+        font-size: 150%;
     }
 }
 
@@ -2236,7 +2237,8 @@
 
 @media (max-width:1695px) {
     .acapabilities p {
-        top: 170px
+        top: 170px;
+        font-size: 150%;
     }
 }
 
