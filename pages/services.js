@@ -173,7 +173,7 @@ function New() {
         </p>
         <div className={styles.rickimgs}>
           <div className={styles.rickimg1}>
-        <img src="hack.jpeg" className={styles.waterimg} data-aos="fade-up"/>
+        <img src="Hack.jpeg" className={styles.waterimg} data-aos="fade-up"/>
         <p>Manufacturing Engineering</p>
         </div>
         <div className={styles.rickimg2}>
