@@ -5150,14 +5150,6 @@ top: 400px;
     }
 }
 
-.article:hover {
-    height: 260px;
-    width: 97%;
-    animation: both;
-    transition: .2s ease-in-out;
-    color: #00469c;
-}
-
 .article h1 {
     width: 70%;
     margin-left: 2%;
