@@ -293,7 +293,7 @@ function Home() {
                   </div>
                 )}
               </Transition>
-              <Transition in={inFinal}>
+              <Transition in={inFinal} timeout={300}>
                 {(state) => (
                   <div className={styles.finalstyle}>
                   <img
