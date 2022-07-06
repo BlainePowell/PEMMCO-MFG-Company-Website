@@ -352,6 +352,7 @@ function Home() {
             </div>
             <div className={styles.freeconsh}>
         <h1>Request A Free Consultation Today</h1>
+            <form ref={form} onSubmit={sendEmail}>
         <div>
           <label>
             <input
@@ -371,6 +372,7 @@ function Home() {
           </label>
             <button onClick={sendEmail}>Submit Request</button>
         </div>
+          </form>
         </div>.
           </div>
           <div className={styles.homefoot}>
