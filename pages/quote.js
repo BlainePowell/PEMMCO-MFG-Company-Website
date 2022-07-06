@@ -45,6 +45,7 @@ function Quote() {
     />}
   <div className={styles.freeconq}>
         <h1>Request A Free Consultation Today</h1>
+           <form ref={form} onSubmit={sendEmail}>
         <div>
           <label>
             <input
@@ -64,6 +65,7 @@ function Quote() {
           </label>
           <button onClick={sendEmail}>Submit Request</button>
         </div>
+</form>
       </div>
   <img src="pemdrone-min.jpeg" className={styles.vidq} />
   <div className={styles.nava}>
