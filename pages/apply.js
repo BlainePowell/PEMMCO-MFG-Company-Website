@@ -117,7 +117,7 @@ export const ContactUs = () => {
           Mfg. provides precision CNC Milling, CNC Turning and Assembly work for
           many different industries. Located in the Asheboro, North Carolina, we
           are able to offer quick lead times, low cost and exceptional quality
-          from our 50,000 sq. ft. facility built in 2011.
+          from our 75,000 sq. ft. facility built in 2011.
         </p>
         <img src='slope.jpeg' />
       </div>
