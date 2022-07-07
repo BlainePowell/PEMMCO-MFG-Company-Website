@@ -190,9 +190,9 @@ function New() {
           <img src="engineering.jpeg" />
         <h2>Manufacturing Engineering</h2>
         <p>
-        Our Vertical Mills are perfect for handling your smaller components that do not have a very large annual usage. 
-        Our Horizontal Mills are great for handing your larger components that require fast cycle times and higher annual volumes. 
-        With our integrated pallet change systems, the down time is practically seconds between cycles.
+          Our team of Engineers will work alongside your team to help you produce the best product possible. We help
+          with the design of machine fixtures, CNC Engineering, and quality assurance. Our Engineers make sure we are making the 
+          best part in the most efficient manner possible.
         </p>
           <div className={styles.tcapabilities}>
         <img src="metrology.jpeg" />
