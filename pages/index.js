@@ -346,7 +346,7 @@ function Home() {
                  be checked in the traditional manor. 
                 This helps us ensure the quality of our customers parts.&nbsp;"
                 <i>
-                -&nbsp;Ken&nbsp;Wiant,&nbsp;Quality&nbsp;Engineer
+                -&nbsp;Hunter&nbsp;Lair,&nbsp;Quality&nbsp;Engineer
               </i>
               </p>
             </div>
