@@ -43,6 +43,24 @@ export const ContactUs = () => {
         }
       );
   };
+  
+  useEffect(() => {
+  var tele = document.querySelector('#telle');
+
+  tele.addEventListener('keyup', function(event){
+    if (event.key != 'Backspace' && (tele.value.length === 3 || tele.value.length === 7)){
+    tele.value += '-';
+    }
+  });
+
+  var phone = document.querySelector('#phone');
+
+  phone.addEventListener('keyup', function(event){
+    if (event.key != 'Backspace' && (phone.value.length === 3 || phone.value.length === 7)){
+      phone.value += '-';
+    }
+  });
+})
 
   return (
 <div className={styles.stickyhome}>
@@ -152,11 +170,11 @@ export const ContactUs = () => {
           </div>
           <div className={styles.home}>
             <label>Home Phone</label>
-            <input type='text' name="home_phone"/>
+            <input type='text' id="telle" name="home_phone"/>
           </div>
           <div className={styles.mobile}>
             <label>Mobile Phone</label>
-            <input type='text' name="mobile_phone"/>
+            <input type='text' id="phone" name="mobile_phone"/>
           </div>
           <div className={styles.emailapp}>
             <label>Email</label>
