@@ -1,9 +1,14 @@
 import styles from "/styles/Home.module.css";
 import { useState, useEffect } from 'react'
 import '@google/model-viewer'
+import dynamic from 'next/dynamic'
 
 function Three() {
     const [ thre, setThree ] = useState(false)
+    
+    dynamic(
+        {ssr: false}
+    )
 
     var wind = window.innerWidth;
 
