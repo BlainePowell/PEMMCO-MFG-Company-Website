@@ -10,7 +10,7 @@ function Three() {
         {ssr: false}
     )
 
-    var wind = window.innerWidth;
+    var wind = 1000
 
     useEffect(() => {
     if (wind <= 815) {
