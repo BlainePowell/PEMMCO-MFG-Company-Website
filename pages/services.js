@@ -242,7 +242,6 @@ function New() {
   backgroundColor: spline ? '#022652' : '#E6E6E6',
 }}/>
 </div>
-</div>
       </div>
       {engrave && <Engrave />}
       {spline && <Spline />}
