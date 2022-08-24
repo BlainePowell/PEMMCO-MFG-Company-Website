@@ -16,15 +16,9 @@ import dynamic from 'next/dynamic';
 
 function New() {
   const [ isOpen, setOpen ] = useState(false)
-  const [ engrave, setEngrave ] = useState(false);
+  const [ engrave, setEngrave ] = useState(true);
   const [ spline, setSpline ] = useState(false);
-  const [ threeD, setThreeD] = useState(true);
   const form = useRef();
-
-  const Three = dynamic(
-    () => import('./components/3dprint'),
-    {ssr: false}
-  )
 
   const variants = {
     open: { opacity: 1, x: 0, transition: {duration: .3} },
@@ -228,7 +222,6 @@ function New() {
       <div className={styles.other}>
 <div className={styles.other3} onMouseOver={() => {
           setEngrave(true);
-          setThreeD(false);
           setSpline(false);
         }}>
 <h1  style={{
@@ -240,7 +233,6 @@ function New() {
 </div>
 <div className={styles.other4} onMouseOver={() => {
           setEngrave(false);
-          setThreeD(false);
           setSpline(true);
         }}>
 <h1  style={{
@@ -250,22 +242,10 @@ function New() {
   backgroundColor: spline ? '#022652' : '#E6E6E6',
 }}/>
 </div>
-<div className={styles.other5} onMouseOver={() => {
-          setThreeD(true);
-          setEngrave(false);
-          setSpline(false);
-        }}>
-<h1  style={{
-  color: threeD ? '#022652' : '#E6E6E6',
-}}>3D Printing</h1>
-<div  style={{
-  backgroundColor: threeD ? '#022652' : '#E6E6E6',
-}}/>
 </div>
       </div>
       {engrave && <Engrave />}
       {spline && <Spline />}
-      {threeD && <Three />}
       </div>
       <div className={styles.freecons}>
         <h1>Request A Free Consultation Today</h1>
