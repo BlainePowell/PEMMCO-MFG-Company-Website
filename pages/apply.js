@@ -26,7 +26,6 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     window.alert('Thank you for contacting us. We will get back to you shortly.')
-    window.location.href = '/';
 
     emailjs
       .sendForm(
@@ -38,6 +37,7 @@ export const ContactUs = () => {
       .then(
         (result) => {
           console.log(result.text);
+          window.location.href = '/';
         },
         (error) => {
           console.log(error.text);
