@@ -93,7 +93,7 @@ function Contact() {
         <h4>Fax: <p>336-626-5358</p></h4>
       </div>
       <div className={styles.careerq}>
-      <h1>Career<p>For Inqueires regarding a career at PEMMCO, please contact...</p></h1>
+      <h1>Career<p>For inquiries regarding a career at PEMMCO, please contact...</p></h1>
       <h2>Jessica Porpeglia<i>&nbsp;&nbsp;Human&nbsp;Resources&nbsp;</i></h2>
       <h3>Phone: <p>336-625-1122</p></h3>
       <h4>Email: <p>Jessicap@pemmcomfg.com</p></h4>
