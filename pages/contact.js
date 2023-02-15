@@ -94,9 +94,9 @@ function Contact() {
       </div>
       <div className={styles.careerq}>
       <h1>Career<p>For inquiries regarding a career at PEMMCO, please contact...</p></h1>
-      <h2>Jessica Porpeglia<i>&nbsp;&nbsp;Human&nbsp;Resources&nbsp;</i></h2>
+      <h2>Dee Eaton<i>&nbsp;&nbsp;Human&nbsp;Resources&nbsp;</i></h2>
       <h3>Phone: <p>336-625-1122</p></h3>
-      <h4>Email: <p>Jessicap@pemmcomfg.com</p></h4>
+      <h4>Email: <p>deee@pemmcomfg.com</p></h4>
       <h1>Business<p>For business inqueires with PEMMCO, please contact...</p></h1>
       <h2>Rick Powell<i>&nbsp;&nbsp;President</i></h2>
       <h3>Phone: <p>Rick Powell x 1202</p></h3>
